@@ -693,6 +693,10 @@ fill: #FFFFFF;
     cursor: pointer;
 }
 
+.modal-icon:hover {
+    fill: #2196F3;
+}
+
 /* Transición al aparecer y desaparecer la ventana modal */
 .modal,
 .modal-backdrop {
@@ -701,4 +705,135 @@ fill: #FFFFFF;
 
 .is-hidden {
     transition-duration: 0s, 0.3s;
+}
+
+
+/*DISEÑO DE LOS INPUT DEL MODAL*/
+
+.modal-title-form {
+    color: #212121;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.modal-label-terminos {
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+.terminos {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 33px;
+}
+
+.container-check {
+    padding-right: 7px;
+}
+
+.check {
+    width: 16px;
+    height: 15px;
+}
+
+.modal-form-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+}
+
+.modal-form-icon:focus {
+    fill: #2196F3;
+}
+
+.modal-label {
+    color: #757575;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+
+.modal-input {
+    display: block;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    padding-left: 40px;
+}
+
+.modal-input-comentario {
+    width: 448px;
+    height: 120px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    padding: 16px 12px;
+}
+
+.input-comentario {
+    width: 416px;
+    height: 96px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+    outline: none;
+}
+
+.sin-borde {
+    border: none;
+    resize: none;
+}
+
+.container-modal-input {
+    position: relative;
+}
+
+.modal-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;    
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.container-modal-input:hover, .container-modal-input:focus {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+}
+
+.modal-input-comentario:hover {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
 }

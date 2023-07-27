@@ -401,22 +401,42 @@
           <use href="./images/icons.svg#close"></use>
         </svg>
       </button>
+      <p class="modal-title-form">Deje sus datos, nos contactaremos con usted</p>
       <form class="form">
-        <p>Deje sus datos, nos contactaremos con usted</p>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" />
-        <label for="telefono">Telefono</label>
-        <input type="tel" name="telefono" id="telefono" />
-        <label for="mail">E-mail</label>
-        <input type="email" name="mail" id="mail">
-        <label for="Comentarios">Comentarios</label>
-        <textarea name="" id="" cols="30" rows="5" name="comentarios" id="comentarios"
-          placeholder="Introduzca el texto"></textarea>
-        <div>
-          <input type="checkbox" name="terminos" id="terminos">
-          <label for="terminos">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
+        <label class="modal-label" for="nombre">Nombre</label>
+        <div class="container-modal-input">
+          <input class="modal-input" type="name" name="nombre" id="name" required />
+          <svg class="modal-form-icon">
+            <use href="./images/icons.svg#persona"></use>
+          </svg>
         </div>
-        <button type="submit">Enviar</button>
+        <label class="modal-label" for="telefono">Teléfono</label>
+        <div class="container-modal-input">
+          <input class="modal-input" type="tel" name="telephone" id="telefono" required/>
+          <svg class="modal-form-icon">
+            <use href="./images/icons.svg#telefononegro"></use>
+          </svg>
+        </div>
+        <label class="modal-label" for="mail">E-mail</label>
+        <div class="container-modal-input">
+          <input class="modal-input" type="email" name="mail" id="mail" required/>
+          <svg class="modal-form-icon">
+            <use href="./images/icons.svg#correoelectronico"></use>
+          </svg>
+        </div>
+        <label class="modal-label" for="comentarios">Comentarios</label>
+        <div class="modal-input-comentario">
+          <textarea class="input-comentario sin-borde" name="comentarios" id="comentarios" cols="30" rows="5" placeholder="Introduzca el texto"></textarea>
+        </div>
+        <div class="terminos">
+          <div class="container-check">
+            <input class="check" type="checkbox" name="checkbox" id="terminos" required>
+          </div>
+          <label class="modal-label-terminos" for="terminos">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
+        </div>
+        <div class="container-button">
+          <button class="modal-button" type="submit">Enviar</button>
+        </div>
       </form>
 
     </div>
