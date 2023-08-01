@@ -402,11 +402,11 @@
           </div>
         </div>
         <div class="container-seccion-one">
-          <div class="container-button">
-            <button class="button-boletin sin-borde" type="submit">Suscríbase</button>
+          <div class="container-button-boletin">
+            <button class="button-boletin sin-borde" type="checkbox">Suscríbase</button>
             <div class="container-boletin-svg">
-              <svg class="networks-link-icon">
-                <use href="./images/icons.svg#enviar"></use>
+              <svg class="svg-boletin">
+                <use href="./images/icons.svg#avion"></use>
               </svg>
             </div>
           </div>
@@ -447,15 +447,15 @@
             <use href="./images/icons.svg#correoelectronico"></use>
           </svg>
         </div>
-        <label class="modal-label" for="comentarios">Comentarios</label>
-        <div class="modal-input-comentario">
-          <textarea class="input-comentario sin-borde" name="comentarios" id="comentarios" cols="30" rows="5" placeholder="Introduzca el texto"></textarea>
-        </div>
-        <div class="terminos">
-          <div class="container-check">
-            <input class="check" type="checkbox" name="checkbox" id="terminos" required>
-          </div>
-          <label class="modal-label-terminos" for="terminos">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
+        <label class="modal-label">Comentarios
+          <textarea name="user-message" class="modal-form-message" placeholder="Deja tu comentario aquí"></textarea>
+        </label>
+        <div class="form-checkbox">
+          <input type="checkbox" class="modal-form-checkbox visually-hidden" id="policy" />
+          <label for="policy" class="modal-form-checkbox-label">
+            Estoy de acuerdo con el boletín informativo y acepto los
+            Términos y Condiciones
+          </label>
         </div>
         <div class="container-button">
           <button class="modal-button" type="submit">Enviar</button>

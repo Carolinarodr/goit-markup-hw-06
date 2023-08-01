@@ -94,11 +94,11 @@
       </clipPath>
     </defs>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 15" id="check">
+<symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 15" id="chulo">
     <rect width="16" height="15" fill="#2196F3" rx="2"></rect>
     <path fill="#fff" stroke="#fff" stroke-width=".2" d="m3.95703 7.75166-.06878-.06562-.06902.06537-.888.84117-.07637.07234.07611.07261 3.49574 3.33487.06903.0658.06902-.0658L14.069 4.91352l.0759-.07236-.0759-.07235-.8817-.84117-.069-.06581-.069.06578-6.55353 6.24589-2.53874-2.42184Z"></path>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="enviar">
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="avion">
     <path fill="#fff" d="M24 0 0 13.5l7.66994 2.8407L19.5 5.25002 10.5017 17.3896l.0073.0027-.009-.0027v6.6105l4.3013-5.0181 5.4488 2.0181L24 0Z"></path>
   </symbol>
 </svg>
