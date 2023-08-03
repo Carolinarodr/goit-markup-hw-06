@@ -691,8 +691,8 @@ fill: #FFFFFF;
     cursor: pointer;
 }   
 
-.modal-icon:active {
-    color: #2196f3;
+.modal-icon:hover {
+    fill: #2196f3;
 }
 
 /* Transición al aparecer y desaparecer la ventana modal */
