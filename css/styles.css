@@ -692,10 +692,10 @@ fill: #FFFFFF;
     width: 18px;
     height: 18px;
     cursor: pointer;
-}
+}   
 
-.modal-icon:hover {
-    fill: #2196F3;
+.container-svg:hover .modal-icon {
+    fill: #2196f3;
 }
 
 /* Transición al aparecer y desaparecer la ventana modal */
@@ -727,10 +727,6 @@ fill: #FFFFFF;
     position: absolute;
     top: 14px;
     left: 15px;
-}
-
-.modal-form-icon:focus {
-    fill: #2196F3;
 }
 
 .modal-label {
@@ -765,7 +761,7 @@ fill: #FFFFFF;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-message:focus {
+.modal-form-message:is(:hover, :focus) {
     outline: none;
     border-color: rgb(0, 140, 255);
 }
@@ -786,6 +782,13 @@ fill: #FFFFFF;
 .container-modal-input {
     position: relative;
 }
+
+.container-modal-input:hover,
+.container-modal-input:focus {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+}
+
 
 /*chechbox*/
 
@@ -860,22 +863,17 @@ fill: #FFFFFF;
     outline: none;
 }
 
-.modal-form-icon:is(:hover :focus) {
-    fill: #2196F3;
+.container-modal-input:is(:hover :focus)
+.container-modal-input {
+    color: #2196f3;
 }
 
-.container-modal-input:hover,
-.container-modal-input:focus {
-    border-radius: 4px;
-    border: 1px solid #2196F3;
+.container-modal-input:hover
+.modal-form-icon {
+    fill: #2196f3;
 }
 
-.modal-input-comentario:hover {
-    border-radius: 4px;
-    border: 1px solid #2196F3;
-}
-
-/*Diseño para el footer de correo electronico*/
+/*Diseño para el boletin del footer*/
 
 .container-footer-boletin {
     width: 358px;
@@ -932,7 +930,7 @@ fill: #FFFFFF;
 .container-seccion-one {
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
+    padding-left: 60px;
 }
 
 .svg-boletin {
