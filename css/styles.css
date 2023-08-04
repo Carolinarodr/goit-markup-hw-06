@@ -691,10 +691,6 @@ fill: #FFFFFF;
     cursor: pointer;
 }   
 
-.modal-icon:hover {
-    fill: #2196f3;
-}
-
 /* Transición al aparecer y desaparecer la ventana modal */
 .modal,
 .modal-backdrop {
@@ -783,15 +779,17 @@ fill: #FFFFFF;
     position: relative;
 }
 
-.container-modal-input:hover,
-.container-modal-input:focus {
+.modal-input:hover,
+.modal-input:focus {
     border-radius: 4px;
     border: 1px solid #2196F3;
 }
 
-.modal-input:hover .modal-form-icon {
-    color: #2196F3;
+.modal-input:focus + .modal-form-icon,
+.modal-input:hover + .modal-form-icon {
+    fill: #2196F3;
 }
+
 
 /*chechbox*/
 
@@ -866,15 +864,6 @@ fill: #FFFFFF;
     outline: none;
 }
 
-.container-modal-input:is(:hover :focus)
-.container-modal-input {
-    color: #2196f3;
-}
-
-.container-modal-input:hover
-.modal-form-icon {
-    fill: #2196f3;
-}
 
 /*Diseño para el boletin del footer*/
 
