@@ -785,8 +785,7 @@ fill: #FFFFFF;
     border: 1px solid #2196F3;
 }
 
-.modal-input:focus + .modal-form-icon,
-.modal-input:hover + .modal-form-icon {
+.modal-input:focus + .modal-form-icon {
     fill: #2196F3;
 }
 
@@ -928,6 +927,7 @@ fill: #FFFFFF;
 .svg-boletin {
     width: 24px;
     height: 24px;
+    fill: #ffffff;
 }
 
 .container-boletin-svg {
